@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "@/components/shared/Navbar/Navbar";
+import Footer from "@/components/shared/Footer/Footer";
 
 export default function RootLayout({
   children,
@@ -7,9 +9,9 @@ export default function RootLayout({
 }) {
   return (
     <main className="flex flex-col min-h-screen">
-      <h1>nav</h1>
+      <Navbar/>
       <main className="flex-grow">{children}</main>
-      <footer>footer</footer>
+      <Footer/>
     </main>
   );
 }

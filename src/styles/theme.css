@@ -121,4 +121,26 @@
   .h3-normal {
     @apply font-normal text-2xl;
   }
+
+  .h4-bold {
+    @apply font-bold text-xl;
+  }
+
+  .h4-semibold {
+    @apply font-semibold text-xl;
+  }
+
+  .h4-medium {
+    @apply font-medium text-xl;
+  }
+
+  .h4-normal {
+    @apply font-normal text-xl;
+  }
+
+  .placeholder-text-color_light::placeholder {
+    color: #7d8184 !important;
+}
+
+
 }

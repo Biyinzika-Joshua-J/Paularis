@@ -2,6 +2,9 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import { ThemeProvider } from "@/context/ThemeProvider";
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
 
 const inter = Inter({
   subsets: ["latin"],
@@ -19,8 +22,8 @@ export const metadata: Metadata = {
   description:
     "Discover a world of flavors and convenience at Paularis – your one-stop shop for premium spices, eco-friendly disposable plates and cups, and essential utensils. Elevate your culinary experience with our handpicked spice collection, while reducing your environmental footprint with our sustainable tableware options. Shop now for quality, variety, and sustainability!",
     icons:{
-      icon:'../favicon.ico',
-      apple:'../apple-touch-icon.png',
+      icon:'./favicon.ico',
+      apple:'./apple-touch-icon.png',
     }
 };
 
