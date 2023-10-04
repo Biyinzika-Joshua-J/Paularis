@@ -4,5 +4,124 @@
 
 @layer utilities {
     /*apply common class names I will be using*/
+    .text-color-primary {
+        @apply text-white;
+    }
+    .bg-color-primary {
+        @apply bg-white;
+    }
+
+    .text-color-primary1 {
+        color: #363738;
+    }
+
+    .bg-color-primary1 {
+        background-color: #363738;
+    }
+
+    .text-color-secondary{
+        color: #F5F5F5;
+    }
+
+    .bg-color-secondary{
+        background-color: #F5F5F5;
+    }
+
+    .text-color-secondary1{
+        color: #FEFAF1;
+    }
+
+    .bg-color-secondary1{
+        background-color: #FEFAF1;
+    }
+
+    .text-color-secondary2{
+        color: #DB4444;
+    }
+
+    .bg-color-secondary2{
+        background-color: #DB4444;
+    }
+
+    .main-text-color{
+        color: #FAFAFA;
+    }
+
+    .main-text-color1{
+        color: #7D8184;
+    }
+
+    .main-text-color2{
+        @apply text-black;
+    }
+
+    .bg-btn{
+        @apply bg-black;
+    }
+
+    .bg-btn1{
+        background-color: #00FF66;
+    }
+
+
+    .bg-btn2{
+        background-color: #DB4444;
+    }
+
+    .bg-btn-hover1{
+        background-color: #E07575;
+    }
+    .bg-btn-hover2{
+        background-color: #A0BCE0;
+    }
+
+    .h1-bold{
+        @apply font-bold text-4xl;
+    }
+
+    .h1-semibold {
+        @apply font-semibold text-4xl;
+    }
+
+    .h1-medium {
+        @apply @apply font-medium text-4xl;
+    }
+
+    .h1-normal {
+        @apply @apply font-normal text-4xl;
+    }
+
+    .h2-bold{
+        @apply font-bold text-3xl;
+    }
+
+    .h2-semibold {
+        @apply font-semibold text-3xl;
+    }
+
+    .h2-medium {
+        @apply @apply font-medium text-3xl;
+    }
+
+    .h2-normal {
+        @apply @apply font-normal text-3xl;
+    }
+
+    .h3-bold{
+        @apply font-bold text-2xl;
+    }
+
+    .h3-semibold {
+        @apply font-semibold text-2xl;
+    }
+
+    .h3-medium {
+        @apply @apply font-medium text-2xl;
+    }
+
+    .h3-normal {
+        @apply @apply font-normal text-2xl;
+    }
+
 }
 
