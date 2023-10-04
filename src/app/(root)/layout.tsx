@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
-const layout = () => {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <div>layout</div>
-  )
+    <main className="flex flex-col min-h-screen">
+      <h1>nav</h1>
+      <main className="flex-grow">{children}</main>
+      <footer>footer</footer>
+    </main>
+  );
 }
-
-export default layout

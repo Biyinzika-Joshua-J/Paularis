@@ -1,9 +1,16 @@
-import React from 'react'
+"use client";
+import React from "react";
+import { useTheme } from "@/context/ThemeProvider";
 
-const page = () => {
+const Home = () => {
+ 
+ 
+
   return (
-    <div>page</div>
-  )
-}
+    <div className="flex-grow">
+      Home
+    </div>
+  );
+};
 
-export default page
+export default Home;
