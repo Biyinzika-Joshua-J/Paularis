@@ -15,7 +15,7 @@ const Path = ({isError}:Props) => {
         <span className="">
             {" "}
             {
-                isError  ? '404Error' : pathname
+                isError  ? '404Error' : pathname.substring(1)
             }
         </span>
   </div>;
