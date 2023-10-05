@@ -1,3 +1,4 @@
+import ContactForm from '@/components/forms/ContactForm'
 import Path from '@/components/shared/Path/Path'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -13,9 +14,9 @@ const Contact = () => {
         </div>
       </section>
       <section className="py-20">
-        <div className="mx-auto w-[90%]">
+        <div className="mx-auto w-[90%] flex justify-center items-center">
           <div className="grid lg:grid-cols-4 grid-cols-1 gap-5">
-              <div className=" col-span-1 py-6 px-4 shadow-2xl rounded-lg">
+              <div className=" col-span-1 py-6 px-4 shadow-2xl rounded-lg ">
                 <div className="">
                   <div className="flex items-center pb-4">
                     <div className="bg-color-secondary2 h-10 w-10 flex justify-center items-center rounded-full">
@@ -55,8 +56,8 @@ const Contact = () => {
                   </p>
                 </div>
               </div>
-              <div className="bg-red-500 col-span-3">
-                
+              <div className="shadow-2xl py-6 px-4 rounded-lg col-span-3">
+                  <ContactForm/>
               </div>
           </div>
         </div>
